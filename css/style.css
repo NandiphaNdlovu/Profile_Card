@@ -112,12 +112,12 @@
     color: white;
     text-decoration: none;
 }
-.nav:hover{
+  .nav:hover{
 
-}
-.bc{
+  }
+  .bc{
     text-decoration: none;
-}
+  }
 
   .overlay > button{
     position: absolute;
@@ -159,8 +159,17 @@
   
   .content_container{
     padding: 2rem;
+    border:solid;
+    border-color: black;
   }
-  
+
+  .skills-container > h3{
+    color: #767096;
+    border-bottom: 2px solid #767096;
+    display: inline-block;
+    line-height: 2.4em;
+  }
+
   .content_container > h3{
     color: #767096;
     border-bottom: 2px solid #767096;
@@ -249,14 +258,12 @@
             transform: scale(1.2);
     stroke: #000;
   }
-  ul{
-  }
 
   li{
     list-style: none;
     display:inline-block;
-    background-color:var(--back);
     border-radius:0.5rem;
     padding:0.5rem;
+    color: var(--back);
   }
     

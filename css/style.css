@@ -112,6 +112,9 @@
     color: white;
     text-decoration: none;
 }
+.nav:hover{
+
+}
 .bc{
     text-decoration: none;
 }
@@ -175,7 +178,6 @@
     margin-right: 0.8rem;
     padding-top: 1rem;
   }
-  
   
   span.orange{
     color: var(--back);
@@ -247,3 +249,14 @@
             transform: scale(1.2);
     stroke: #000;
   }
+  ul{
+  }
+
+  li{
+    list-style: none;
+    display:inline-block;
+    background-color:var(--back);
+    border-radius:0.5rem;
+    padding:0.5rem;
+  }
+    

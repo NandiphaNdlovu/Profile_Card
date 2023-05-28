@@ -159,14 +159,12 @@
   
   .content_container{
     padding: 2rem;
-    border:solid;
-    border-color: black;
   }
 
   .skills-container > h3{
     color: #767096;
     border-bottom: 2px solid #767096;
-    display: inline-block;
+    display: inline;
     line-height: 2.4em;
   }
 
@@ -190,6 +188,12 @@
   
   span.orange{
     color: var(--back);
+  }
+
+  .skills-container{
+    display:flex;
+    gap: 5px;
+    margin-bottom: 10px;
   }
   
   .icon_container{
